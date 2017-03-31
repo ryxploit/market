@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.headi{
+    font-size: 35px;
+    background-color: red;
+    color: white;
+
+}
+
+.formulario{
+    margin-top: 100px !important;
+    left: 35%;
+    background-color: rgba(0,0,0,0.6);
+
+
+}
+.log{
+    height: 160px;
+    width: 160px;
+}
+.perfil{
+    text-align: center;
+    background-color: white;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.campos{
+    margin-top: 30px;
+}
+.btne{
+    text-align: center;
+}
+.inner-addon {
+    position: relative;
+}
+
+
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
